@@ -16,7 +16,7 @@ import java.util.*
  }
         fun printHelp() {
             println("""
-        |使用前缀表达式,符号与第一个数字相连
+        |使用前缀表达式
         |(+ 1 1)
         |(* (+5 5) (/1 2))
     """.trimIndent())
