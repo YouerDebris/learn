@@ -1,5 +1,7 @@
 package calculator
 
+
+
 class Stack <T>{
 
     var top : Linked<T>? = null

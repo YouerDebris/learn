@@ -7,10 +7,14 @@ import java.util.*
      while (true) {
          print("->")
          val s = i.nextLine()
+         val dicern = Dicern()
          when (s) {
              "exit" -> return
              "help" -> printHelp()
-             else -> Dicern(s)
+             else -> {
+                 dicern.analyss(s)
+                 println(dicern.getResults())
+             }
          }
      }
  }
