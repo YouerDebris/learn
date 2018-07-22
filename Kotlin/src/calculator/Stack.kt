@@ -4,7 +4,7 @@ package calculator
 
 class Stack <T>{
 
-    var top : Linked<T>? = null
+    private var top : Linked<T>? = null
 
     fun push(e:T) {top = Linked(e, top)
     }

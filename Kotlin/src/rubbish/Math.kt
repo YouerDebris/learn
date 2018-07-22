@@ -16,5 +16,4 @@ object Math {
             d+=(dig-ave)*(dig-ave)
         return d/digital.size
     }
-
 }
