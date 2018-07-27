@@ -1,4 +1,4 @@
-package calculator
+package rubbish
 
 class Linked<T>(var value: T, var next: Linked<T>?) {
 

@@ -1,5 +1,11 @@
 package calculator
 
+import rubbish.Stack
+import java.io.File
+import java.nio.file.Files
+import java.nio.file.Path
+import java.nio.file.Paths
+
 class Discern {
 
     private var functions = hashMapOf<String,String>()
@@ -18,6 +24,10 @@ class Discern {
             }
             count++
         }
+    }
+
+    fun analyse(paths: Path){
+        Files.lines(paths).forEach { analyse(it) }
     }
 
      fun getResults() :String{
@@ -40,7 +50,6 @@ class Discern {
 
     private fun putFun(s:String) {
         functions[s.substring(0,s.indexOf('<'))] = s.substring(s.indexOf('<'))
-        result = "create fun '${s.substring(0,s.indexOf('<'))}' success"
     }
 
     private fun count(){

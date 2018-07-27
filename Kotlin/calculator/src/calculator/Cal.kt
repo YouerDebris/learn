@@ -1,10 +1,12 @@
 package calculator
 
+import java.nio.file.Paths
 import java.util.*
 
  fun main(args: Array<String>) {
      val i = Scanner(System.`in`)
      val dicern = Discern()
+     //dicern.analyse(Paths.get("calculator/src/calculator/xxx"))
      while (true) {
          print("->")
          val s = i.nextLine()
