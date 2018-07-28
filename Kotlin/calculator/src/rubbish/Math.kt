@@ -16,4 +16,9 @@ object Math {
             d+=(dig-ave)*(dig-ave)
         return d/digital.size
     }
+
+    fun factorial(digit:Int):Int{
+        return if (digit>1) factorial(digit-1) else digit
+    }
+
 }

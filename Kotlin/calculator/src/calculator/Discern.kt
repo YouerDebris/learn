@@ -37,8 +37,6 @@ class Discern {
         return string
     }
 
-
-
     private fun put(char: Char){
         when(char){
             ')' -> count()
