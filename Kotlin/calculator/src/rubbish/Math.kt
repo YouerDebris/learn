@@ -1,9 +1,5 @@
 package rubbish
 
-fun main(args:Array<String>){
-
-}
-
 object Math {
 
     fun average(digital:Array<Double>):Double{
