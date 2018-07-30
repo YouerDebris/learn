@@ -1,5 +1,9 @@
 package rubbish
 
+fun main(args:Array<String>){
+
+}
+
 object Math {
 
     fun average(digital:Array<Double>):Double{
@@ -19,6 +23,12 @@ object Math {
 
     fun factorial(digit:Int):Int{
         return if (digit>1) factorial(digit-1) else digit
+    }
+
+    fun pow(index: Int, power: Int): Int {
+        if (power == 1) return index
+        val temp = pow(index, power / 2)
+        return (if (power % 2 == 0) 1 else index) * temp * temp
     }
 
 }
