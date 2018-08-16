@@ -11,5 +11,3 @@ data Plan = Plan {
 data Activity = DoHomeWork
                              | GoForAWalk
                              | Learn
-            
-            

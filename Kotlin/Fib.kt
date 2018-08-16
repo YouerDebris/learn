@@ -1,5 +1,3 @@
-package rubbish
-
 object Fib {
 
     fun isFib(args: Array<Int>): Boolean {

@@ -1,6 +1,3 @@
-package rubbish
-
-
 class Stack <T>{
 
     private var top : Linked<T>? = null

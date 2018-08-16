@@ -1,7 +1,6 @@
-class  Eq a  where
- (==), (/=) :: a -> a -> Bool
+class Youer a where
+  (+),(-) :: a -> a -> a
+  (==),(!=) :: a -> a -> Bool
 
-    -- Minimal complete definition:
-    --     (==) or (/=)
- x /= y     =  not (x == y)
- x == y     =  not (x /= y)
+  x == y = not (x != y)
+  x != y = not (x == y)

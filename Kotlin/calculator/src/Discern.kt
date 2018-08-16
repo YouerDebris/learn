@@ -1,15 +1,9 @@
-package calculator
-
-import rubbish.Stack
-import java.nio.file.Files
-import java.nio.file.Path
-
 class Discern {
 
     private var functions = hashMapOf<String,String>()
     private var stack = Stack<Char>()
     private var result = ""
-
+    
     fun analyse(exp : String?) {
         if (exp == null) return
         var count = 0

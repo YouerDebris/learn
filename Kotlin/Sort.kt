@@ -1,5 +1,3 @@
-package rubbish
-
 class Sort {
 
     fun insertSort(list:Array<Int>){

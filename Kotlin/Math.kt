@@ -1,5 +1,3 @@
-package rubbish
-
 object Math {
 
     fun average(digital:Array<Double>):Double{

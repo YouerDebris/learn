@@ -1,5 +1,3 @@
-package calculator
-
 import java.util.*
 
  fun main(args: Array<String>) {
