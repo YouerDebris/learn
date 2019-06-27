@@ -2,7 +2,7 @@
  (combine 1))
 
 (define (composite f fu)
-b  (lambda (x)
+  (lambda (x)
     (f (fu x))))
 
 (define combine (lambda (x)
